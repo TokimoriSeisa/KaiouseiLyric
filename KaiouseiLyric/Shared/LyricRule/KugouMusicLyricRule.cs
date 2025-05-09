@@ -10,8 +10,6 @@ public class KugouMusicLyricRule : LyricRule
     {
         Key = "KugouMusicLyricRule";
         AppName = "酷狗音乐";
-        AutoDetect = true;
-        AutoCapture = true;
     }
 
     public override FoundWindow? DetectWindow()

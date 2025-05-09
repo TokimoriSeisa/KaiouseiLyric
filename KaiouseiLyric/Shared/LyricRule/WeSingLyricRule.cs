@@ -10,8 +10,6 @@ public class WeSingLyricRule : LyricRule
     {
         Key = "WeSingMusicLyricRule";
         AppName = "全民K歌（歌词）";
-        AutoCapture = true;
-        AutoCapture = true;
     }
 
     public override FoundWindow? DetectWindow()

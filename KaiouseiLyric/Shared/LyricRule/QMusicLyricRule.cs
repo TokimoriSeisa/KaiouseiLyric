@@ -10,8 +10,6 @@ public class QMusicLyricRule : LyricRule
     {
         Key = "QMusicLyricRule";
         AppName = "QQ音乐";
-        AutoCapture = true;
-        AutoCapture = true;
     }
 
     public override FoundWindow? DetectWindow()

@@ -10,8 +10,6 @@ public class NeteaseMusicLyricRule : LyricRule
     {
         Key = "NeteaseMusicLyricRule";
         AppName = "网易云音乐";
-        AutoDetect = true;
-        AutoCapture = true;
     }
 
     public override FoundWindow? DetectWindow()
